@@ -2,7 +2,6 @@ package com.example.Demo_E_Commerce.service;
 
 import com.example.Demo_E_Commerce.model.Category;
 import com.example.Demo_E_Commerce.repository.CategoryRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

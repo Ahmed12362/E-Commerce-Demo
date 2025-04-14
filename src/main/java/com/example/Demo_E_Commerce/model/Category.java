@@ -20,7 +20,7 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
     String name;
-    @OneToMany(mappedBy = "category")
+    @OneToMany(mappedBy = "category" , cascade = CascadeType.REMOVE)
     List<Product> products = new ArrayList<>();
 
 }
